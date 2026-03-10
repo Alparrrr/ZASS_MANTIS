@@ -2,4 +2,3 @@ Record=TopLevelDocument|FileName=MAIN.SchDoc|SheetNumber=1
 Record=SheetSymbol|SourceDocument=MAIN.SchDoc|Designator=U_COMM|SchDesignator=U_COMM|FileName=COMM.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=COMM.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=MAIN.SchDoc|Designator=U_POWER|SchDesignator=U_POWER|FileName=POWER.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=POWER.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=MAIN.SchDoc|Designator=U_STM32G0B1CBT6TR|SchDesignator=U_STM32G0B1CBT6TR|FileName=STM32G0B1CBT6TR.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=STM32G0B1CBT6TR.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=MAIN.SchDoc|FileName=Sheet1.SchDoc|SheetNumber=5
