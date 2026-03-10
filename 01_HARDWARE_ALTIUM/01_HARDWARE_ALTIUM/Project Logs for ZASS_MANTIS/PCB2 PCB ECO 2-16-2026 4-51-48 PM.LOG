@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=SD_CS Pin=IC1-18
+Removed Pin From Net: NetName=ACAN_H Pin=J4-2
+Removed Pin From Net: NetName=BCAN_L Pin=J4-3
+Removed Pin From Net: NetName=SD_CS Pin=J7-3
+Removed Pin From Net: NetName=SD_CS Pin=R8-1
+Added Pin To Net: NetName=BCAN_L Pin=J4-2
+Added Pin To Net: NetName=ACAN_H Pin=J4-3
+Added Pin To Net: NetName=SD_MOSI Pin=IC1-18
+Added Pin To Net: NetName=SD_MOSI Pin=J7-3
+Added Pin To Net: NetName=SD_MOSI Pin=R8-1
+Added Net: Name=SD_MOSI

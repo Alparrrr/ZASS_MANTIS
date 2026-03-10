@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=ACAN_H Pin=J4-2
+Removed Pin From Net: NetName=BCAN_L Pin=J4-3
+Added Pin To Net: NetName=BCAN_L Pin=J4-2
+Added Pin To Net: NetName=ACAN_H Pin=J4-3
+Added Pin To Net: NetName=ACAN_H Pin=R28-1
+Added Pin To Net: NetName=BCAN_L Pin=R28-2
+Added Member To Class: ClassName=MAIN Member=Component R28 CRGCQ0603F120R

@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [ZASS_MANTIS.PrjPcb]
+   Generated File[Bill of Materials-ZASS_MANTIS.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 7:53:28 PM On 2/7/2026
