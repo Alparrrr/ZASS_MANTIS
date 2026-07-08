@@ -1,36 +1,43 @@
-\## ZASS MANTIS (Battery Monitor(DISPLAY) and Logger)
+# ZASS MANTIS — Battery Display & Logger Unit
 
+STM32-based display and control unit designed for **ZASS Lithium Battery Packs**.
 
+The system reads battery telemetry over **FDCAN / RS485**, visualizes it on a **DWIN HMI** touch screen via UART, and logs every frame received from the pack to an SD card.
 
-STM32 based display and control unit designed for ZASS Lithium Battery Packs.
+## Features
 
+- 📊 Displays cell voltages, total pack voltage, SOC and temperature
+- 🔌 **2× FDCAN** and **1× RS485** communication ports
+- 🖥️ **UART** driver for the DWIN HMI display
+- ⚠️ Detailed fault monitoring (over-voltage, under-voltage, over-temperature, over-current)
+- 💾 Full data logging to SD card (FATFS) — every frame coming from the pack is stored
 
+## Communication Flow
 
-The system reads battery telemetry data via FDCAN/RS485 and visualizes it on a DWIN HMI screen using UART communication.
+```
+BMS ──(FDCAN / RS485)──▶ MANTIS ──(UART / FDCAN)──▶ DWIN DISPLAY
+        raw battery data        parsed data & screen variables
+```
 
+## Repository Structure
 
+| Folder | Contents |
+|---|---|
+| `01_HARDWARE_ALTIUM/` | Altium Designer project (STM32G0B1CBT6), Gerber outputs, BOM, 3D STEP model |
+| `02_Firmware_STM32/` | STM32CubeIDE firmware project (`ZASS_MANTIS_114`) |
+| `04_DWIN_DISPLAY/` | DWIN HMI screen project and image assets |
 
+## Hardware
 
+- **MCU:** STM32G0B1CBT6 (Cortex-M0+, 2× FDCAN)
+- **Display:** DWIN HMI (UART)
+- **Storage:** microSD card (FATFS)
 
-\## Features
+## Status
 
-* Displays Cell Voltages, Total Pack Voltage, SOC, and Temperature.
-* \*\*2x FDCAN\*\* and \*\*1x RS485\*\* ports for communication.
-* \*\*UART\*\* implementation for DWIN display driver.
-* Detailed fault monitoring (Over-Voltage, Under-Voltage, Over-Temp, Over-Curr).
-* Detailed log saving into SD Card included all data that comes from pack.
-
-
-
-
-
-\## Communication Flow
-
-* &nbsp; \*\*BMS -> MANTIS (FDCAN/RS485):\*\* Receiving raw battery data.
-* &nbsp; \*\*MANTIS -> DISPLAY (UART/FDCAN):\*\* Parsing data and updating screen variables.
-
-
-
----
-
-* #### Status:  **Hardware Completed** 
+| Milestone | State |
+|---|---|
+| Hardware design | ✅ Completed |
+| First sample PCB | ✅ Ordered & validated |
+| **-30 version design** | ✅ **Completed** |
+| **Production batch (50 units)** | 🏭 **Ordered** |

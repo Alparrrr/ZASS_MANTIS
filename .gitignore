@@ -3,7 +3,7 @@ Debug/
 Release/
 .settings/
 *.ioc.bak
-*.mxproject
+.mxproject
 
 # --- Altium Designer ---
 History/
@@ -16,6 +16,9 @@ build/
 *.obj
 *.exe
 .vscode/
+.ninja_log
+.ninja_deps
+compile_commands.json
 *.user
 
 # --- Windows & Genel ---

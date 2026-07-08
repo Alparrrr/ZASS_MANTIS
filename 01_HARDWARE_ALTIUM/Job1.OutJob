@@ -62,7 +62,7 @@ Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 OutputType3=BOM_PartType
 OutputName3=Bill of Materials
 OutputCategory3=Report
-OutputDocumentPath3=
+OutputDocumentPath3=PCB2.PcbDoc
 OutputVariantName3=
 OutputEnabled3=1
 OutputEnabled3_OutputMedium1=0
