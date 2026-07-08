@@ -4,6 +4,12 @@ STM32-based display and control unit designed for **ZASS Lithium Battery Packs**
 
 The system reads battery telemetry over **FDCAN / RS485**, visualizes it on a **DWIN HMI** touch screen via UART, and logs every frame received from the pack to an SD card.
 
+<p align="center">
+  <img src="docs/mantis-display.gif" width="480" alt="ZASS MANTIS display — boot screen and live telemetry dashboard"/>
+  <br/>
+  <em>Boot sequence and live telemetry dashboard (DWIN HMI, 320×240)</em>
+</p>
+
 ## Features
 
 - 📊 Displays cell voltages, total pack voltage, SOC and temperature
