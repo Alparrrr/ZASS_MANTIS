@@ -8,7 +8,7 @@ display, warns the operator on screen and with a buzzer when a safety rule trips
 everything to an **SD card** with real-time timestamps.
 
 <p align="center">
-  <img src="docs/demo.gif" width="640" alt="Start-up, dashboard and safety warnings"/>
+  <img src="docs/demo.gif" width="720" alt="Start-up, dashboard and safety warnings"/>
 </p>
 
 ## Status
@@ -38,7 +38,7 @@ everything to an **SD card** with real-time timestamps.
 
 | Normal | Warning strip | Warning pop-up |
 |---|---|---|
-| <img src="docs/screens/main-normal.png" width="260"/> | <img src="docs/screens/strip-rule4-temp-high.png" width="260"/> | <img src="docs/screens/popup-rule1-overcharge.png" width="260"/> |
+| <img src="docs/screens/main-normal.png" width="300"/> | <img src="docs/screens/strip-rule4-temp-high.png" width="300"/> | <img src="docs/screens/popup-rule1-overcharge.png" width="300"/> |
 
 ## Documentation
 
