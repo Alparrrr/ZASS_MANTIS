@@ -24,3 +24,7 @@ compile_commands.json
 # --- Windows & Genel ---
 Thumbs.db
 *.log
+
+# --- PC test ciktilari ---
+*.pdb
+__pycache__/
